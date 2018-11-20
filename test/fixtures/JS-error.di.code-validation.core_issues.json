@@ -1,0 +1,39 @@
+{
+    "version": "1.0.0",
+    "results": {
+        "@sap/di.code-validation.js": {
+            "issues": {
+                "file.js": [
+                    {
+                        "category": "Possible Error",
+                        "checker": "ESLint",
+                        "column": 9,
+                        "helpUrl": "http://eslint.org/docs/rules/no-console",
+                        "line": 94,
+                        "message": "Unexpected console statement.",
+                        "path": "file.js",
+                        "ruleId": "no-console",
+                        "severity": "error"
+                    },
+                    {
+                        "category": "Possible Error",
+                        "checker": "ESLint",
+                        "column": 3,
+                        "helpUrl": "http://eslint.org/docs/rules/valid-jsdoc",
+                        "line": 115,
+                        "message": "Missing JSDoc return description.",
+                        "path": "file.js",
+                        "ruleId": "valid-jsdoc",
+                        "severity": "info"
+                    }
+                ]
+            }
+        },
+        "@sap/di.code-validation.xml": {
+            "issues": {}
+        },
+        "@sap/di.code-validation.json": {
+            "issues": {}
+        }
+    }
+}
